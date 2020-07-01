@@ -1,3 +1,8 @@
+var administrator={
+	"user_name": "krao_admin_001",
+	"user_pasword": "krao001",
+	"user_admin": true
+};
 {
-  "username":"adnmin_krao"
-}
+	"user_name2":"aaas"
+};

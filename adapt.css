@@ -1,0 +1,8 @@
+@media only screen and (max-width: 1024px){
+	body{
+		--max_width:1024px;
+		/*--font_size: 6px;*/
+		--width-border1:2px;
+		--width-border2:3px;
+		--width-border3:4px;
+	}

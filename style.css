@@ -1,0 +1,114 @@
+body{
+	max-width: var(--max-width);
+	/*max-height: 1080px;*/
+	width: 95%;
+	height: 95%;
+	background: #777;
+	/*font-size: --font_size;*/
+
+}
+header{
+	padding-bottom: 20px;
+}
+#adm_form table,#adm_form tr,#adm_form td,#adm_form th{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+
+}
+#div1{
+	/*max-width: 1920px;
+	max-height: 1080px;
+	width: 100%;
+	height: 100%;*/
+	display: flex;
+	justify-content: center; /*Центр по главной оси*/
+	align-items: center; /*Центр по вспомогательной оси*/
+}
+/*table,tr,td,th{
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+#div1 table, tr, td, th{
+	border: 1px black solid;
+	border-collapse: collapse;  /*Убираем двойные линии между ячейками */
+	min-height: 10px;
+	min-width: 5%;
+}
+#div1 #schedule {
+	border-width: 3px;
+}
+.schedule_tr1_2{
+	border-top-width: 3px;
+	border-left-width: 3px;
+	border-bottom-width: 2px;
+}
+.schedule_tr_2{
+	border-left-width: 3px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+}
+.schedule_tr_head_week{			/*столбец 1 - дни недели*/
+	border-width:3px;
+	/*width: 30px;*/
+	max-width: 3%;
+}
+.schedule_tr_head_time{			/*столбец 2 - время*/
+	border-width:3px;
+}
+.schedule_tr_head_course1,			/*столбец 3 - группа*/
+.schedule_tr_head_course2,			/*столбец 5 - группа*/
+.schedule_tr_head_course3,			/*столбец 7 - группа*/
+.schedule_tr_head_course4{			/*столбец 9 - группа*/
+	border-width:3px;
+	border-right-width: 1px;
+	width: 60px;
+}
+.schedule_tr_course1,			/*столбец 3 - группа*/
+.schedule_tr_course2,			/*столбец 5 - группа*/
+.schedule_tr_course3,			/*столбец 7 - группа*/
+.schedule_tr_course4{			/*столбец 9 - группа*/
+	border-right-width: 1px;
+}
+.schedule_tr_head_cabinet1,			/*столбец 4 - кабинет*/
+.schedule_tr_head_cabinet2,			/*столбец 6 - кабинет*/
+.schedule_tr_head_cabinet3,			/*столбец 8 - кабинет*/
+.schedule_tr_head_cabinet4{			/*столбец 10 - кабинет*/
+	 border-width:3px;
+	 border-left-width: 1px;
+}
+.schedule_tr_cabinet1,
+.schedule_tr_cabinet2,
+.schedule_tr_cabinet3,
+.schedule_tr_cabinet4{
+	border-left-width: 1px;
+	border-right-width: 3px;
+}
+.schedule_tr_week{			/*столбец с наименованием дня недели*/
+	
+	/*height: 110px;*/
+	min-height: 110px;
+	height: 110px;
+	/*height: 100%;*/
+
+	border: 3px solid black;
+	text-align: center;
+}
+.schedule_tr_time{
+	border-right-width: 3px;
+}
+.span_d_of_w{
+	display: block;
+}
+.week_span{
+	writing-mode: lr-tb;
+	writing-mode: vertical-lr;
+	text-align: center;
+	transform: rotate(-180deg);
+}
+#tab1 table,tr,td,{
+	border: 0px solid black;
+	border-collapse: collapse;
+	min-height: 10px;
+	min-width: 5%;
+}
